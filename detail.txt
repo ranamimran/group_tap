@@ -1,0 +1,12 @@
+
+1)include below file
+
+	include("./sendNotification.php");
+
+2) initialize function
+
+	$sendNoti = new sendNotification();
+
+3) call function for notification
+
+	$sendNoti->sendNotificationByApns($deviceToken, $msg,$type, $userId);
